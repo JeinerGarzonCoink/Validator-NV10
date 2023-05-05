@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/UnitTest_StDisable.dir/UnitTest_StDisable.cpp.o ../ValidatorNV10.o -o UnitTest_StDisable  lib/libgtest_main.a lib/libgtest.a -lpthread 

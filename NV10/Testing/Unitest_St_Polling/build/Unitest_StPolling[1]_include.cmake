@@ -1,0 +1,5 @@
+if(EXISTS "/home/coink/Documents/Oink-Validator-NV10-main/NV10/Testing/Unitest_St_Polling/build/Unitest_StPolling[1]_tests.cmake")
+  include("/home/coink/Documents/Oink-Validator-NV10-main/NV10/Testing/Unitest_St_Polling/build/Unitest_StPolling[1]_tests.cmake")
+else()
+  add_test(Unitest_StPolling_NOT_BUILT Unitest_StPolling_NOT_BUILT)
+endif()

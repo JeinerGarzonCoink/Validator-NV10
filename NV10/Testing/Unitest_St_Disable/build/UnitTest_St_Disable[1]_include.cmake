@@ -1,0 +1,5 @@
+if(EXISTS "/home/coink/Documents/Oink-Validator-NV10-main/NV10/Testing/Unitest_St_Disable/build/UnitTest_St_Disable[1]_tests.cmake")
+  include("/home/coink/Documents/Oink-Validator-NV10-main/NV10/Testing/Unitest_St_Disable/build/UnitTest_St_Disable[1]_tests.cmake")
+else()
+  add_test(UnitTest_St_Disable_NOT_BUILT UnitTest_St_Disable_NOT_BUILT)
+endif()

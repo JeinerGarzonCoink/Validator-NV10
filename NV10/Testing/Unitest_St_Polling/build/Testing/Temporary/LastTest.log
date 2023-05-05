@@ -1,0 +1,66 @@
+Start testing: May 03 17:47 -05
+----------------------------------------------------------
+1/2 Testing: Unitest.TestPass1
+1/2 Test: Unitest.TestPass1
+Command: "/home/coink/Documents/Oink-Validator-NV10-main/NV10/Testing/Unitest_St_Polling/build/Unitest_StPolling" "--gtest_filter=Unitest.TestPass1" "--gtest_also_run_disabled_tests"
+Directory: /home/coink/Documents/Oink-Validator-NV10-main/NV10/Testing/Unitest_St_Polling/build
+"Unitest.TestPass1" start time: May 03 17:47 -05
+Output:
+----------------------------------------------------------
+Running main() from /home/coink/Documents/Oink-Validator-NV10-main/NV10/Testing/Unitest_St_Polling/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Unitest.TestPass1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Unitest
+[ RUN      ] Unitest.TestPass1
+[       OK ] Unitest.TestPass1 (402 ms)
+[----------] 1 test from Unitest (402 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (402 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.42 sec
+----------------------------------------------------------
+Test Passed.
+"Unitest.TestPass1" end time: May 03 17:47 -05
+"Unitest.TestPass1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: Unitest.TestFail1
+2/2 Test: Unitest.TestFail1
+Command: "/home/coink/Documents/Oink-Validator-NV10-main/NV10/Testing/Unitest_St_Polling/build/Unitest_StPolling" "--gtest_filter=Unitest.TestFail1" "--gtest_also_run_disabled_tests"
+Directory: /home/coink/Documents/Oink-Validator-NV10-main/NV10/Testing/Unitest_St_Polling/build
+"Unitest.TestFail1" start time: May 03 17:47 -05
+Output:
+----------------------------------------------------------
+Running main() from /home/coink/Documents/Oink-Validator-NV10-main/NV10/Testing/Unitest_St_Polling/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Unitest.TestFail1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Unitest
+[ RUN      ] Unitest.TestFail1
+/home/coink/Documents/Oink-Validator-NV10-main/NV10/Testing/Unitest_St_Polling/Unitest_StPolling.cpp:39: Failure
+Expected equality of these values:
+  TestFunctionFail1()
+    Which is: 0
+  -2
+[  FAILED  ] Unitest.TestFail1 (402 ms)
+[----------] 1 test from Unitest (402 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (402 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] Unitest.TestFail1
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.42 sec
+----------------------------------------------------------
+Test Failed.
+"Unitest.TestFail1" end time: May 03 17:47 -05
+"Unitest.TestFail1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 03 17:47 -05

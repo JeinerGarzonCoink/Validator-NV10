@@ -1,0 +1,210 @@
+Start testing: May 04 18:15 -05
+----------------------------------------------------------
+1/6 Testing: UnitTest.TestPass1
+1/6 Test: UnitTest.TestPass1
+Command: "/home/coink/Documents/Oink-Validator-NV10-main/NV10/Testing/Unitest_HandleResponse/build/UnitTest_HandleResponse" "--gtest_filter=UnitTest.TestPass1" "--gtest_also_run_disabled_tests"
+Directory: /home/coink/Documents/Oink-Validator-NV10-main/NV10/Testing/Unitest_HandleResponse/build
+"UnitTest.TestPass1" start time: May 04 18:15 -05
+Output:
+----------------------------------------------------------
+Running main() from /home/coink/Documents/Oink-Validator-NV10-main/NV10/Testing/Unitest_HandleResponse/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = UnitTest.TestPass1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from UnitTest
+[ RUN      ] UnitTest.TestPass1
+/home/coink/Documents/Oink-Validator-NV10-main/NV10/Testing/Unitest_HandleResponse/UnitTest_HandleResponse.cpp:62: Failure
+Expected equality of these values:
+  TestFunctionPass1()
+    Which is: 3
+  0
+[  FAILED  ] UnitTest.TestPass1 (103 ms)
+[----------] 1 test from UnitTest (103 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (103 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] UnitTest.TestPass1
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Failed.
+"UnitTest.TestPass1" end time: May 04 18:15 -05
+"UnitTest.TestPass1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/6 Testing: UnitTest.TestFail1
+2/6 Test: UnitTest.TestFail1
+Command: "/home/coink/Documents/Oink-Validator-NV10-main/NV10/Testing/Unitest_HandleResponse/build/UnitTest_HandleResponse" "--gtest_filter=UnitTest.TestFail1" "--gtest_also_run_disabled_tests"
+Directory: /home/coink/Documents/Oink-Validator-NV10-main/NV10/Testing/Unitest_HandleResponse/build
+"UnitTest.TestFail1" start time: May 04 18:15 -05
+Output:
+----------------------------------------------------------
+Running main() from /home/coink/Documents/Oink-Validator-NV10-main/NV10/Testing/Unitest_HandleResponse/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = UnitTest.TestFail1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from UnitTest
+[ RUN      ] UnitTest.TestFail1
+/home/coink/Documents/Oink-Validator-NV10-main/NV10/Testing/Unitest_HandleResponse/UnitTest_HandleResponse.cpp:67: Failure
+Expected equality of these values:
+  TestFunctionFail1()
+    Which is: 3
+  -1
+[  FAILED  ] UnitTest.TestFail1 (101 ms)
+[----------] 1 test from UnitTest (101 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (101 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] UnitTest.TestFail1
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Failed.
+"UnitTest.TestFail1" end time: May 04 18:15 -05
+"UnitTest.TestFail1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/6 Testing: UnitTest.TestFail2
+3/6 Test: UnitTest.TestFail2
+Command: "/home/coink/Documents/Oink-Validator-NV10-main/NV10/Testing/Unitest_HandleResponse/build/UnitTest_HandleResponse" "--gtest_filter=UnitTest.TestFail2" "--gtest_also_run_disabled_tests"
+Directory: /home/coink/Documents/Oink-Validator-NV10-main/NV10/Testing/Unitest_HandleResponse/build
+"UnitTest.TestFail2" start time: May 04 18:15 -05
+Output:
+----------------------------------------------------------
+Running main() from /home/coink/Documents/Oink-Validator-NV10-main/NV10/Testing/Unitest_HandleResponse/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = UnitTest.TestFail2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from UnitTest
+[ RUN      ] UnitTest.TestFail2
+/home/coink/Documents/Oink-Validator-NV10-main/NV10/Testing/Unitest_HandleResponse/UnitTest_HandleResponse.cpp:72: Failure
+Expected equality of these values:
+  TestFunctionFail1()
+    Which is: 3
+  -2
+[  FAILED  ] UnitTest.TestFail2 (102 ms)
+[----------] 1 test from UnitTest (102 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (102 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] UnitTest.TestFail2
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Failed.
+"UnitTest.TestFail2" end time: May 04 18:15 -05
+"UnitTest.TestFail2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/6 Testing: UnitTest.TestFail3
+4/6 Test: UnitTest.TestFail3
+Command: "/home/coink/Documents/Oink-Validator-NV10-main/NV10/Testing/Unitest_HandleResponse/build/UnitTest_HandleResponse" "--gtest_filter=UnitTest.TestFail3" "--gtest_also_run_disabled_tests"
+Directory: /home/coink/Documents/Oink-Validator-NV10-main/NV10/Testing/Unitest_HandleResponse/build
+"UnitTest.TestFail3" start time: May 04 18:15 -05
+Output:
+----------------------------------------------------------
+Running main() from /home/coink/Documents/Oink-Validator-NV10-main/NV10/Testing/Unitest_HandleResponse/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = UnitTest.TestFail3
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from UnitTest
+[ RUN      ] UnitTest.TestFail3
+/home/coink/Documents/Oink-Validator-NV10-main/NV10/Testing/Unitest_HandleResponse/UnitTest_HandleResponse.cpp:77: Failure
+Expected equality of these values:
+  TestFunctionFail1()
+    Which is: 3
+  1
+[  FAILED  ] UnitTest.TestFail3 (102 ms)
+[----------] 1 test from UnitTest (102 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (102 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] UnitTest.TestFail3
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Failed.
+"UnitTest.TestFail3" end time: May 04 18:15 -05
+"UnitTest.TestFail3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/6 Testing: UnitTest.TestFail4
+5/6 Test: UnitTest.TestFail4
+Command: "/home/coink/Documents/Oink-Validator-NV10-main/NV10/Testing/Unitest_HandleResponse/build/UnitTest_HandleResponse" "--gtest_filter=UnitTest.TestFail4" "--gtest_also_run_disabled_tests"
+Directory: /home/coink/Documents/Oink-Validator-NV10-main/NV10/Testing/Unitest_HandleResponse/build
+"UnitTest.TestFail4" start time: May 04 18:15 -05
+Output:
+----------------------------------------------------------
+Running main() from /home/coink/Documents/Oink-Validator-NV10-main/NV10/Testing/Unitest_HandleResponse/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = UnitTest.TestFail4
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from UnitTest
+[ RUN      ] UnitTest.TestFail4
+/home/coink/Documents/Oink-Validator-NV10-main/NV10/Testing/Unitest_HandleResponse/UnitTest_HandleResponse.cpp:82: Failure
+Expected equality of these values:
+  TestFunctionFail1()
+    Which is: 3
+  2
+[  FAILED  ] UnitTest.TestFail4 (102 ms)
+[----------] 1 test from UnitTest (102 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (102 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] UnitTest.TestFail4
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Failed.
+"UnitTest.TestFail4" end time: May 04 18:15 -05
+"UnitTest.TestFail4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/6 Testing: UnitTest.TestFail5
+6/6 Test: UnitTest.TestFail5
+Command: "/home/coink/Documents/Oink-Validator-NV10-main/NV10/Testing/Unitest_HandleResponse/build/UnitTest_HandleResponse" "--gtest_filter=UnitTest.TestFail5" "--gtest_also_run_disabled_tests"
+Directory: /home/coink/Documents/Oink-Validator-NV10-main/NV10/Testing/Unitest_HandleResponse/build
+"UnitTest.TestFail5" start time: May 04 18:15 -05
+Output:
+----------------------------------------------------------
+Running main() from /home/coink/Documents/Oink-Validator-NV10-main/NV10/Testing/Unitest_HandleResponse/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = UnitTest.TestFail5
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from UnitTest
+[ RUN      ] UnitTest.TestFail5
+[       OK ] UnitTest.TestFail5 (102 ms)
+[----------] 1 test from UnitTest (102 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (102 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Passed.
+"UnitTest.TestFail5" end time: May 04 18:15 -05
+"UnitTest.TestFail5" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 04 18:15 -05

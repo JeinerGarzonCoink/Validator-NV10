@@ -1,0 +1,5 @@
+add_test( Unitest.TestPass1 /home/coink/Documents/Oink-Validator-NV10-main/NV10/Testing/Unitest_St_Polling/build/Unitest_StPolling [==[--gtest_filter=Unitest.TestPass1]==] --gtest_also_run_disabled_tests)
+set_tests_properties( Unitest.TestPass1 PROPERTIES WORKING_DIRECTORY /home/coink/Documents/Oink-Validator-NV10-main/NV10/Testing/Unitest_St_Polling/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test( Unitest.TestFail1 /home/coink/Documents/Oink-Validator-NV10-main/NV10/Testing/Unitest_St_Polling/build/Unitest_StPolling [==[--gtest_filter=Unitest.TestFail1]==] --gtest_also_run_disabled_tests)
+set_tests_properties( Unitest.TestFail1 PROPERTIES WORKING_DIRECTORY /home/coink/Documents/Oink-Validator-NV10-main/NV10/Testing/Unitest_St_Polling/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set( Unitest_StPolling_TESTS Unitest.TestPass1 Unitest.TestFail1)

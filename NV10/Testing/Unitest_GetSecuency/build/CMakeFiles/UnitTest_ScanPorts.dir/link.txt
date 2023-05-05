@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/UnitTest_ScanPorts.dir/UnitTest_ScanPorts.cpp.o ../ValidatorNV10.o -o UnitTest_ScanPorts  lib/libgtest_main.a lib/libgtest.a -lpthread 

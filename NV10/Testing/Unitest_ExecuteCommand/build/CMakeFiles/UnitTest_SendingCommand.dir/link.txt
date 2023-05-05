@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/UnitTest_SendingCommand.dir/UnitTest_SendingCommand.cpp.o ../ValidatorNV10.o -o UnitTest_SendingCommand  lib/libgtest_main.a lib/libgtest.a -lpthread 

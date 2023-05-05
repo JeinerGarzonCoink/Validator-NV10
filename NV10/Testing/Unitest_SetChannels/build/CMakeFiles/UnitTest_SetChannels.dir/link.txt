@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/UnitTest_SetChannels.dir/UnitTest_SetChannels.cpp.o ../ValidatorNV10.o -o UnitTest_SetChannels  lib/libgtest_main.a lib/libgtest.a -lpthread 
